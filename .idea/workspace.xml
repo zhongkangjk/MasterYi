@@ -19,6 +19,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Masteryipachong" />
   </component>
   <component name="ProjectId" id="1PExUttqZYdh0d7Hh6CPFW22ES4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Masteryipachong" />
@@ -203,12 +206,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565453075741</updated>
-      <workItem from="1565453076919" duration="968000" />
+      <workItem from="1565453076919" duration="1237000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1565454267354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565454267354</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Masteryipachong$pachong1.coverage" NAME="pachong1 Coverage Results" MODIFIED="1565453657892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Masteryipachong" />
