@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e94c6e-e63f-4246-953e-a0899628c0bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baidu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paqutupian.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.baidu">
+  <component name="RunManager" selected="Python.paqutupian">
     <configuration name="baidu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Masteryipachong" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,8 +90,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="paqutupian" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Masteryipachong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/paqutupian.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.paqutupian" />
         <item itemvalue="Python.baidu" />
         <item itemvalue="Python.pachong1" />
       </list>
@@ -109,7 +132,8 @@
       <updated>1565453075741</updated>
       <workItem from="1565453076919" duration="1611000" />
       <workItem from="1565454755839" duration="2614000" />
-      <workItem from="1565508860119" duration="6129000" />
+      <workItem from="1565508860119" duration="6152000" />
+      <workItem from="1565523317667" duration="2030000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1565454267354</created>
@@ -160,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565516269520</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="init">
+      <created>1565517986638</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565517986638</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +216,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Masteryipachong$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1565517270458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Masteryipachong$paqutupian.coverage" NAME="paqutupian Coverage Results" MODIFIED="1565527386626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Masteryipachong$pachong1.coverage" NAME="pachong1 Coverage Results" MODIFIED="1565516192631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
