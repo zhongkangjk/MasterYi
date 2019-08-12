@@ -27,5 +27,5 @@ BeautifulSoup
 .previous_sibling#返回按照HTML文本顺序的上一个平行标签
 .next_siblings#迭代类型后续所有平行节点标签
 .previous_sibling#迭代类型前续所有平行节点标签
-
+bs4库的prettify()方法  加空格
 

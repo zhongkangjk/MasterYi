@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e94c6e-e63f-4246-953e-a0899628c0bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BeautifulSoupxuexi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IPpachong.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -182,7 +180,8 @@
       <workItem from="1565454755839" duration="2614000" />
       <workItem from="1565508860119" duration="6152000" />
       <workItem from="1565523317667" duration="6805000" />
-      <workItem from="1565610102144" duration="1087000" />
+      <workItem from="1565610102144" duration="1716000" />
+      <workItem from="1565621734542" duration="666000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1565454267354</created>
@@ -247,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565527449101</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="init">
+      <created>1565611202094</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565611202094</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
