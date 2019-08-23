@@ -40,6 +40,18 @@ bs4库的prettify()方法  加空格
 
 20190824
 ----
+Scrapy
+scrapy startproject python123demo
+创建一个名为python123demo的工程
+cd python123demo 进去
+scrapy genspider demo python123.io
+创建一个名为demo的爬虫以爬取python123.io
+scrapy crawl demo
+执行demo
+
+
+
+
 Scrapy中的
 
 Request对象表示一个HTTP请求
