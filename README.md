@@ -38,3 +38,49 @@ bs4库的prettify()方法  加空格
 反斜杠本身需要使用反斜杠转义。
 由于正则表达式通常都包含反斜杠，所以你最好使用原始字符串来表示它们。模式元素(如 r'\t'，等价于 \\t )匹配相应的特殊字符。
 
+20190824
+----
+Scrapy中的
+
+Request对象表示一个HTTP请求
+由Spider生成，由Downloader执行
+Request的属性或方法
+.url Request对应的请求URL地址
+.method对应的请求方法，‘GET’‘POST’等
+.headers字典风格的请求头
+.body请求内容主题，字符串类型
+.meta用户添加的扩展信息，在Scrapy内部模块间传递信息使用
+.copy()复制该请求
+
+Response对象表示一个HTTP响应
+由Downloader生成，由Spider处理
+Response的属性或方法
+.url Response对应的URL地址
+.status HTTP状态码，默认是200
+.headers Response对应的头部信息
+.body Response对应的内容信息，字符串类型
+.flags 一组标记
+.request 产生Response类型对应Request对象
+.copy()复制该响应
+
+Item对象表示一个从HTML页面中提取的信息内容
+由Spider生成，由Item Pipeline处理
+类似字典类型，可以按照字典类型操作
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
