@@ -15,3 +15,15 @@ try:
         print("文件已存在")
 except:
     print('爬取失败')
+
+'''
+html = requests.get(item.get('data-src'))
+        img_name = folder_path + str(index + 1) + '.png'
+        image = Image.open(BytesIO(html.content))
+        image.save('E:\Python\photo'+img_name)
+        print('第%d张图片下载完成' % (index + 1))
+
+from PIL import Image
+
+
+'''

@@ -79,6 +79,13 @@ Item对象表示一个从HTML页面中提取的信息内容
 由Spider生成，由Item Pipeline处理
 类似字典类型，可以按照字典类型操作
 
+20190831
+----
+gedit /etc/apt/sources.list
+deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free 
+apt-get update
+apt-get upgrade
+清华源更新kali
 
 
 
