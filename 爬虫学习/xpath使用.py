@@ -1,6 +1,6 @@
 import requests
-from bs4 import BeautifulSoup
-#https://www.biqiuge.com/book/4772/2940354.html    没解决  解决了是pycharm显示不全
+from lxml import etree
+
 url = "https://www.nbiquge.com/0_127/45735.html"
 headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36 LBBROWSER'}
 try:
@@ -9,7 +9,12 @@ try:
     r.encoding = r.apparent_encoding
 except:
     print("爬取失败")
-demo = r.text
-soup = BeautifulSoup(demo,"html.parser")
+#print(r.text)
 
-print(soup)
+html = etree.HTML(r.text)
+res = html.xpath("//a//@href")
+for i in res:
+    print(i)
+
+
+
