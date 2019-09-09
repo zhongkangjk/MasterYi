@@ -87,7 +87,11 @@ apt-get update
 apt-get upgrade
 清华源更新kali
 
-
+20190909
+----
+时间片流转
+并行：真的多任务
+并发：假的多任务
 
 
 
