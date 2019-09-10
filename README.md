@@ -92,6 +92,8 @@ apt-get upgrade
 时间片流转
 并行：真的多任务
 并发：假的多任务
+threading.Thread(target =).start  创建跑
+threading.enumerate()  返回一个线程列表
 
 
 
