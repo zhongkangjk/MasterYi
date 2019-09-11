@@ -95,6 +95,12 @@ apt-get upgrade
 threading.Thread(target =).start  创建跑
 threading.enumerate()  返回一个线程列表
 
+20190911
+----
+锁 = threading.Lock()
+锁.acquire()  #上锁   如果之前没上锁的话
+锁.release()  #解锁
+
 
 
 

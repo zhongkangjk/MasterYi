@@ -13,7 +13,7 @@ def hellohome():
         time.sleep(1)
 
 def main():
-    t1 = threading.Thread(target=helloworld)
+    t1 = threading.Thread(target=helloworld)  #如果要传参数可加args = （元组）
     t2 = threading.Thread(target=hellohome)
     t1.start()
     t2.start()
