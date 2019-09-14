@@ -18,3 +18,4 @@ gr2 = greenlet(test2)
 
 #切换到gr1中运行
 gr1.switch()
+#greenlet一般不用
