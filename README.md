@@ -117,6 +117,12 @@ __xx:避免和子类命名冲突，无法在外部直接访问
 __xx__:用户名字空间的魔法对象或属性，__init__，不要自己发明
 xx_:避免和关键词冲突
 
+20190918
+----
+selenium 显性等待
+WebDriverWait(driver,10).until(lambda the_driver:the_driver.find_element_by_xpath())
+driver.find_element_by_xpath().click()
+
 
 
 
