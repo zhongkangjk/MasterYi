@@ -123,7 +123,7 @@ def gogogo():
 		time.sleep(120)
 		driver.refresh()
 		open()
-		gogogo()
+		gogogo()  #不应该递归  应该定时启动新线程然后取结果关闭就可以了
 def thread_it(func, *args):
     '''将函数打包进线程'''
     # 创建
