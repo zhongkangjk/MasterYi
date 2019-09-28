@@ -124,7 +124,13 @@ WebDriverWait(driver,10).until(lambda the_driver:the_driver.find_element_by_xpat
 driver.find_element_by_xpath().click()
 
 
-
+20190929
+----
+我使用了django1.8.2
+django-admin startproject test1  #创建了一个test1项目
+进入test1文件夹创建应用
+python manage.py startapp 应用名
+python manage.py runserver 运行起来
 
 
 
