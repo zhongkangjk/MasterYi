@@ -130,7 +130,13 @@ driver.find_element_by_xpath().click()
 django-admin startproject test1  #创建了一个test1项目
 进入test1文件夹创建应用
 python manage.py startapp 应用名
+进settings.py INSTALLED_APPS #进行应用注册
 python manage.py runserver 运行起来
+数据库：在models.py创建一个模型类
+python manage.py makemigrations #生成迁移文件
+python manage.py migrate #执行迁移生成表（默认sqlite3）
+#略
+
 
 
 
