@@ -135,7 +135,18 @@ python manage.py runserver 运行起来
 数据库：在models.py创建一个模型类
 python manage.py makemigrations #生成迁移文件
 python manage.py migrate #执行迁移生成表（默认sqlite3）
-#略
+#略学不下去
+
+
+20191002
+----
+scrapy startproject mySpider创建项目
+scrapy genspider itcast "itcast.cn" 创建一个爬虫
+到项目文件夹 scrapy crawl itcast 启动这个爬虫
+不让日志显示 去settings加LOG_LEVEL = "WARNING" 比""小的日志都不会显示出来"
+response.xpath('//div[@class="tea_con"]//h3/text()').extract()
+为了不加xpath只显示文字在后面加.extract()
+只去第一个值.extract_first()
 
 
 
