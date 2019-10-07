@@ -9,6 +9,6 @@
 class PoedbPipeline(object):
     def process_item(self, item, spider):
         with open("物品.txt", 'a', encoding='utf-8') as f:
-            f.write(str(item))
+            f.write(str(item)+',')
         print(item)
         return item
