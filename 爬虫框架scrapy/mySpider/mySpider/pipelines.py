@@ -8,5 +8,5 @@
 
 class MyspiderPipeline(object):
     def process_item(self, item, spider):
-        print(item)
-        return item
+    	print(item['title'])
+        #return item
