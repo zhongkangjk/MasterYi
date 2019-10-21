@@ -9,6 +9,16 @@ app = Flask(__name__,
             template_folder="templates",  #模板文件的目录，默认是templates
             )
 
+# 参数的使用方式
+# 1.使用配置文件
+#app.config.from_pyfile("config.cfg")
+# 2.使用对象配置参数
+#class Config(object):
+    #DEBUG = True
+#app.config.from_object(Config)
+#3.直接操作config的字典对象
+app.config["DEBUG"] = True
+
 @app.route("/")
 def index():
     return "hello flask"
