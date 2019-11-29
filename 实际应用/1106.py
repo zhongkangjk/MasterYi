@@ -154,6 +154,16 @@ def 获得窗口标题的句柄(name):
     for i in hwndChildList:
         if name in win32gui.GetWindowText(i):
             return i
+def 提取句柄文本(句柄):
+    # 获取识别结果中输入框文本
+    length = win32gui.SendMessage(句柄, win32con.WM_GETTEXTLENGTH)+1
+    buf = win32gui.PyMakeBuffer(length)
+    #发送获取文本请求
+    win32api.SendMessage(句柄, win32con.WM_GETTEXT, length, buf)
+    #下面应该是将内存读取文本
+    address, length = win32gui.PyGetBufferAddressAndLen(buf[:-1])
+    text = win32gui.PyGetString(address, length)
+    return text
 
 def 登陆():
     win32api.ShellExecute(1,'open',找出桌面的CRM(),'','',1)
@@ -162,8 +172,8 @@ def 登陆():
     用户名 = 列出子窗口句柄(获得标题对应句柄('登陆 Ver2.0.0.432'))[5]
     密码 = 列出子窗口句柄(获得标题对应句柄('登陆 Ver2.0.0.432'))[4]
     确定 = 列出子窗口句柄(获得标题对应句柄('登陆 Ver2.0.0.432'))[3]
-    win32gui.SendMessage(用户名,win32con.WM_SETTEXT, 0,'**')
-    win32gui.SendMessage(密码,win32con.WM_SETTEXT,0 ,'**')
+    win32gui.SendMessage(用户名,win32con.WM_SETTEXT, 0,'zhangqiang')
+    win32gui.SendMessage(密码,win32con.WM_SETTEXT,0 ,'12345678')
     win32gui.SendMessage(确定,win32con.WM_LBUTTONDOWN, 0,0)
     win32gui.PostMessage(确定,win32con.WM_LBUTTONUP, 0,0)
     hwndChildList = []
@@ -306,7 +316,7 @@ def 产品销售填写():
     纳税人类别字典 = {'一般':0,'小规模':1}
     for i in 基础资料:
         if i[1] == 下拉菜单.get():
-            #纳税人类别 
+            #纳税人类别
             纳税人类别 = i[14]
             win32api.SendMessage(列出子窗口句柄(获得标题对应句柄('销售回款'))[37], win32con.CB_SETCURSEL,纳税人类别字典[纳税人类别],  0)
             win32api.SendMessage(列出子窗口句柄(获得标题对应句柄('销售回款'))[35], win32con.WM_COMMAND, 0x90000, 列出子窗口句柄(获得标题对应句柄('销售回款'))[37])
@@ -483,8 +493,26 @@ text2.bind("<Button-3>", lambda x: rightKey(x, text2))#绑定右键鼠标事件
 text2.pack()
 
 
+def 搞电话():
+    file = open("短信.txt", 'a')
+    企业名称列表 = []
+    with open("企业名称.txt", encoding='utf8') as f:
+        for line in f.readlines():
+            企业名称列表.append(line.rstrip('\n'))
+    for i in 企业名称列表:
+        填信息(列出子窗口句柄(获得窗口标题的句柄('客户回访'))[75], i)
+        发送回车(列出子窗口句柄(获得窗口标题的句柄('客户回访'))[75])
+        电话 = 提取句柄文本(列出子窗口句柄(获得窗口标题的句柄('客户回访'))[128])
+        if 电话:
+            file.write(i + 电话 + '\n')
+        else:
+            file.write(i + '没有电话' + '\n')
+        time.sleep(1)
+    file.close()
 
-
+tab4 = ttk.Frame(tabControl)
+tabControl.add(tab4,text = '临时')
+tkinter.Button(tab4,text = "临时按钮", command = 搞电话 ).pack(side = 'left')
 
 
 #tab10
