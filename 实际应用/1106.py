@@ -385,7 +385,7 @@ win.iconbitmap(logo)
 win.title("查询企业V191121")
 win.geometry('450x150+600+300')
 #win.resizable(0, 0)  #固定位置
-#menubar = tkinter.Menu(win,tearoff=False)#创建一个菜单
+menubar = tkinter.Menu(win,tearoff=False)#创建一个菜单
 
 tabControl = ttk.Notebook(win)
 
