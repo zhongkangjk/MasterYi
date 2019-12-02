@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-
+#项目的urls文件
+# /index
 urlpatterns = [
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', include(admin.site.urls)), #配置项目
+    url(r'^',include('booktest.urls')),  #包含booktest应用中的urls文件
 ]
