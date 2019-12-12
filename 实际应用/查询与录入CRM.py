@@ -105,6 +105,19 @@ def go(event):
     else :
         text1.delete(1.0,tkinter.END)
         text1.insert(tkinter.INSERT,"别闹,打了字再点")
+def go1():
+    if entry1.get() != "":
+        text1.delete(1.0,tkinter.END)
+        res = chazhao(entry1.get().strip())
+        if "不可收" in res:
+            text1.insert(tkinter.INSERT,res,"r")
+        elif "可收取" in res:
+            text1.insert(tkinter.INSERT,res,"g")
+        else :
+            text1.insert(tkinter.INSERT,res)
+    else :
+        text1.delete(1.0,tkinter.END)
+        text1.insert(tkinter.INSERT,"别闹,打了字再点")
 def go2():
     entry1.delete(0,tkinter.END)
 def go3(event):
@@ -218,7 +231,7 @@ def 获取基础资料():
     win.wm_attributes('-topmost',1)  #置顶
     销售表文件 = xlrd.open_workbook(filename = 找出销售表())
     销售表1 = 销售表文件.sheet_by_index(0)
-    for i in range(销售表1.nrows-20,销售表1.nrows):
+    for i in range(销售表1.nrows-40,销售表1.nrows):
         基础资料名称.append(销售表1.row_values(i)[1])
         基础资料.append(销售表1.row_values(i))
     for j in range(0,销售表1.nrows):
@@ -236,7 +249,7 @@ def 获取续费资料():
     win.wm_attributes('-topmost',1)  #置顶
     销售表文件 = xlrd.open_workbook(filename = 找出销售表())
     续费表 = 销售表文件.sheet_by_index(1)
-    for i in range(续费表.nrows-20,续费表.nrows):
+    for i in range(续费表.nrows-40,续费表.nrows):
         续费资料名称.append(续费表.row_values(i)[2])
         续费资料.append(续费表.row_values(i))
     续费下拉菜单['value'] = 续费资料名称[::-1]
@@ -315,7 +328,27 @@ def 产品销售填写():
     #
     纳税人类别字典 = {'一般':0,'小规模':1}
     for i in 基础资料:
-        if i[1] == 下拉菜单.get():
+        if i[1] == 下拉菜单.get() and '增值' in i[9]:
+            增值发票号码 = i[10]
+            增值发票位置 = 列出子窗口句柄(获得标题对应句柄('销售信息'))[8]
+            填信息(增值发票位置,增值发票号码)
+            增值发票金额 = i[11]
+            增值发票金额位置 = 列出子窗口句柄(获得标题对应句柄('销售信息'))[5]
+            填信息(增值发票金额位置,增值发票金额)
+            增值序列号 = i[7]
+            增值序列号位置 = 列出子窗口句柄(获得标题对应句柄('销售信息'))[0]
+            填信息(增值序列号位置,增值序列号)
+        if i[1] == 下拉菜单.get() and '增值' in i[10]:
+            增值发票号码 = i[9]
+            增值发票位置 = 列出子窗口句柄(获得标题对应句柄('销售信息'))[8]
+            填信息(增值发票位置,增值发票号码)
+            增值发票金额 = i[11]
+            增值发票金额位置 = 列出子窗口句柄(获得标题对应句柄('销售信息'))[5]
+            填信息(增值发票金额位置,增值发票金额)
+            增值序列号 = i[7]
+            增值序列号位置 = 列出子窗口句柄(获得标题对应句柄('销售信息'))[0]
+            填信息(增值序列号位置,增值序列号)
+        if i[1] == 下拉菜单.get() and '增值' not in i[10] and '增值' not in i[9]:
             #纳税人类别
             纳税人类别 = i[14]
             win32api.SendMessage(列出子窗口句柄(获得标题对应句柄('销售回款'))[37], win32con.CB_SETCURSEL,纳税人类别字典[纳税人类别],  0)
@@ -382,7 +415,7 @@ def 新增续费记录():
 #窗口显示
 win = tkinter.Tk()
 win.iconbitmap(logo)
-win.title("查询企业V191121")
+win.title("查询企业V191212")
 win.geometry('450x150+600+300')
 #win.resizable(0, 0)  #固定位置
 menubar = tkinter.Menu(win,tearoff=False)#创建一个菜单
@@ -409,7 +442,7 @@ entry1.bind('<Return>',go)
 entry1.bind('<Delete>',go3)
 entry1.bind("<Button-3>", lambda x: rightKey(x, entry1))#绑定右键鼠标事件
 
-tkinter.Button(frame1,text = "查询", command = go).pack(side='left')
+tkinter.Button(frame1,text = "查询", command = go1).pack(side='left')
 tkinter.Button(frame1,text = "清除", command = go2).pack()
 
 text1 = tkinter.Text(frame2,height=10)
@@ -492,21 +525,20 @@ text2 = tkinter.Text(frame8,height=6)
 text2.bind("<Button-3>", lambda x: rightKey(x, text2))#绑定右键鼠标事件
 text2.pack()
 
-
 def 搞电话():
-    file = open("短信.txt", 'a')
+    file = open("短信.txt",'a')
     企业名称列表 = []
-    with open("企业名称.txt", encoding='utf8') as f:
+    with open ("企业名称.txt",encoding = 'utf8') as f:
         for line in f.readlines():
             企业名称列表.append(line.rstrip('\n'))
     for i in 企业名称列表:
-        填信息(列出子窗口句柄(获得窗口标题的句柄('客户回访'))[75], i)
+        填信息(列出子窗口句柄(获得窗口标题的句柄('客户回访'))[75],i)
         发送回车(列出子窗口句柄(获得窗口标题的句柄('客户回访'))[75])
         电话 = 提取句柄文本(列出子窗口句柄(获得窗口标题的句柄('客户回访'))[128])
         if 电话:
-            file.write(i + 电话 + '\n')
+            file.write(i+电话+'\n')
         else:
-            file.write(i + '没有电话' + '\n')
+            file.write(i+'没有电话'+'\n')
         time.sleep(1)
     file.close()
 
