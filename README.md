@@ -176,6 +176,13 @@ scrapy.Request(url, headers=self.header, callback=self.parse_detail)
 
 
 
+20200111
+----
+ModuleNotFoundError: No module named 'cryptography.hazmat.bindings._constant
+
+pip install -I cryptography
+
+
 
 
 

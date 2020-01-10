@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="89e94c6e-e63f-4246-953e-a0899628c0bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实际应用/1106.py" beforeDir="false" afterPath="$PROJECT_DIR$/实际应用/查询与录入CRM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +24,6 @@
   <component name="ProjectId" id="1PExUttqZYdh0d7Hh6CPFW22ES4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
-    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -51,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.淘宝商品">
+  <component name="RunManager" selected="Python.xpath使用">
     <configuration name="淘宝商品" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Masteryi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,14 +161,47 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="xpath使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Masteryi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫学习/xpath相关" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫学习/xpath相关/xpath使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xpath使用" />
         <item itemvalue="Python.淘宝商品" />
         <item itemvalue="Python.按照字典中的一个key将具有相同的key的字典再归类成一个列表 " />
         <item itemvalue="Python.dong" />
         <item itemvalue="Python.paquzhongguodaxue" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -201,7 +233,10 @@
       <workItem from="1566305533108" duration="6000" />
       <workItem from="1566385300871" duration="467000" />
       <workItem from="1566385827057" duration="10846000" />
-      <workItem from="1576167185171" duration="56000" />
+      <workItem from="1576167185171" duration="99000" />
+      <workItem from="1578326562747" duration="1974000" />
+      <workItem from="1578329381131" duration="639000" />
+      <workItem from="1578673171236" duration="745000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1565454267354</created>
@@ -329,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566399648746</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="更新了查询与录入CRM">
+      <created>1576167264961</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1576167264961</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +395,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="更新了查询与录入CRM" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了查询与录入CRM" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Masteryipachong$BeautifulSoupxuexi.coverage" NAME="BeautifulSoupxuexi Coverage Results" MODIFIED="1565703762323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -362,6 +405,7 @@
     <SUITE FILE_PATH="coverage/Masteryipachong$paqutupian.coverage" NAME="paqutupian Coverage Results" MODIFIED="1565527386626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Masteryi$.coverage" NAME="淘宝商品 Coverage Results" MODIFIED="1566399632933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习" />
     <SUITE FILE_PATH="coverage/Masteryipachong$keykey_.coverage" NAME="按照字典中的一个key将具有相同的key的字典再归类成一个列表  Coverage Results" MODIFIED="1566227860482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/记下来" />
+    <SUITE FILE_PATH="coverage/Masteryi$xpath.coverage" NAME="xpath使用 Coverage Results" MODIFIED="1578328043712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/xpath相关" />
     <SUITE FILE_PATH="coverage/Masteryipachong$pachong1.coverage" NAME="pachong1 Coverage Results" MODIFIED="1565516192631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Masteryipachong$IPpachong.coverage" NAME="IPpachong Coverage Results" MODIFIED="1565701772572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Masteryipachong$paquzhongguodaxue.coverage" NAME="paquzhongguodaxue Coverage Results" MODIFIED="1565792273064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
