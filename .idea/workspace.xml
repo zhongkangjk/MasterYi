@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89e94c6e-e63f-4246-953e-a0899628c0bb" name="Default Changelist" comment="更新查询传奇" />
+    <list default="true" id="89e94c6e-e63f-4246-953e-a0899628c0bb" name="Default Changelist" comment="数据分析文件夹">
+      <change afterPath="$PROJECT_DIR$/数据分析/page38.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/page41.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/page42.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/page46.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析/page21.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/page21.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,16 +25,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="zhongkangjk" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="MasterYi" />
+  </component>
   <component name="ProjectId" id="1PExUttqZYdh0d7Hh6CPFW22ES4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="添加" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -47,29 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xpath使用">
-    <configuration name="淘宝商品" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Masteryi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫学习" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫学习/淘宝商品.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.page46">
     <configuration name="正则匹配字典" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Masteryi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dong" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="page38" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Masteryi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,12 +92,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\GitHub\Masteryipachong\记下来\按照字典中的一个key将具有相同的key的字典再归类成一个列表 .py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/page38.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="按照字典中的一个key将具有相同的key的字典再归类成一个列表 " type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="page41" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Masteryi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,12 +114,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/记下来" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/记下来/按照字典中的一个key将具有相同的key的字典再归类成一个列表 .py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/page41.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="paquzhongguodaxue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="page42" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Masteryi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,12 +136,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\GitHub\Masteryipachong\爬虫学习\中国大学排名.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/page42.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="page46" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Masteryi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/page46.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.page46" />
+        <item itemvalue="Python.page42" />
+        <item itemvalue="Python.page41" />
+        <item itemvalue="Python.page38" />
         <item itemvalue="Python.xpath使用" />
-        <item itemvalue="Python.淘宝商品" />
-        <item itemvalue="Python.按照字典中的一个key将具有相同的key的字典再归类成一个列表 " />
-        <item itemvalue="Python.dong" />
-        <item itemvalue="Python.paquzhongguodaxue" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +250,9 @@
       <workItem from="1578673171236" duration="830000" />
       <workItem from="1578755182706" duration="264000" />
       <workItem from="1580287982582" duration="121000" />
+      <workItem from="1580475820590" duration="1740000" />
+      <workItem from="1580560682364" duration="6825000" />
+      <workItem from="1580643923051" duration="1963000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1565454267354</created>
@@ -384,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580288082546</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="数据分析文件夹">
+      <created>1580475877065</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1580475877065</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,6 +428,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
@@ -411,18 +436,23 @@
     <MESSAGE value="更新了查询与录入CRM" />
     <MESSAGE value="记下了一个错误的解决方式" />
     <MESSAGE value="更新查询传奇" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新查询传奇" />
+    <MESSAGE value="数据分析文件夹" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据分析文件夹" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Masteryipachong$BeautifulSoupxuexi.coverage" NAME="BeautifulSoupxuexi Coverage Results" MODIFIED="1565703762323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Masteryi$page41.coverage" NAME="page41 Coverage Results" MODIFIED="1580566726251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
     <SUITE FILE_PATH="coverage/Masteryipachong$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1565517270458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Masteryipachong$dong.coverage" NAME="dong Coverage Results" MODIFIED="1566062570264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Masteryipachong$paqutupian.coverage" NAME="paqutupian Coverage Results" MODIFIED="1565527386626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Masteryi$.coverage" NAME="淘宝商品 Coverage Results" MODIFIED="1566399632933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习" />
-    <SUITE FILE_PATH="coverage/Masteryipachong$keykey_.coverage" NAME="按照字典中的一个key将具有相同的key的字典再归类成一个列表  Coverage Results" MODIFIED="1566227860482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/记下来" />
-    <SUITE FILE_PATH="coverage/Masteryi$xpath.coverage" NAME="xpath使用 Coverage Results" MODIFIED="1578328043712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/xpath相关" />
+    <SUITE FILE_PATH="coverage/Masteryi$page38.coverage" NAME="page38 Coverage Results" MODIFIED="1580563452166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
     <SUITE FILE_PATH="coverage/Masteryipachong$pachong1.coverage" NAME="pachong1 Coverage Results" MODIFIED="1565516192631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Masteryipachong$IPpachong.coverage" NAME="IPpachong Coverage Results" MODIFIED="1565701772572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Masteryipachong$paquzhongguodaxue.coverage" NAME="paquzhongguodaxue Coverage Results" MODIFIED="1565792273064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Masteryipachong$BeautifulSoupxuexi.coverage" NAME="BeautifulSoupxuexi Coverage Results" MODIFIED="1565703762323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Masteryipachong$dong.coverage" NAME="dong Coverage Results" MODIFIED="1566062570264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Masteryi$page46.coverage" NAME="page46 Coverage Results" MODIFIED="1580645062084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
+    <SUITE FILE_PATH="coverage/Masteryipachong$paqutupian.coverage" NAME="paqutupian Coverage Results" MODIFIED="1565527386626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Masteryipachong$keykey_.coverage" NAME="按照字典中的一个key将具有相同的key的字典再归类成一个列表  Coverage Results" MODIFIED="1566227860482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/记下来" />
+    <SUITE FILE_PATH="coverage/Masteryi$xpath.coverage" NAME="xpath使用 Coverage Results" MODIFIED="1578328043712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/xpath相关" />
+    <SUITE FILE_PATH="coverage/Masteryi$page42.coverage" NAME="page42 Coverage Results" MODIFIED="1580567489113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
   </component>
 </project>

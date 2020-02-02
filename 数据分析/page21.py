@@ -22,11 +22,13 @@ matplotlib.rc("font",family = 'MicroSoft YaHei',weight="bold")
 
 x = range(0,120)
 y = [random.randint(20,35) for i in range(120)]
+y1 =[random.randint(10,25) for i in range(120)]
 
 
 pyplot.figure(figsize = (20,8),dpi = 80)
 
-pyplot.plot(x,y)
+pyplot.plot(x,y,label='自己')
+pyplot.plot(x,y1,label='同桌')
 
 
 #调整x轴的刻度
@@ -40,7 +42,9 @@ pyplot.xticks(list(x)[::3],_xtick_labels[::3],rotation=270)  #rotation旋转角�
 pyplot.xlabel("时间")
 pyplot.ylabel("温度")
 pyplot.title("10Ian到12点每分钟的气温变化情况")
-
-
+#绘制网格 透明度
+pyplot.grid(alpha=0.4)
+#添加图例
+pyplot.legend()
 
 pyplot.show()
