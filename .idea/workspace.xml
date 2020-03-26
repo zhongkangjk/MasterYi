@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89e94c6e-e63f-4246-953e-a0899628c0bb" name="Default Changelist" comment="直方图">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/实际应用/发送邮件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/numpy_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Masteryi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Masteryi.iml" afterDir="false" />
+    <list default="true" id="89e94c6e-e63f-4246-953e-a0899628c0bb" name="Default Changelist" comment="为自己数据库备份写了邮件发送程序">
+      <change afterPath="$PROJECT_DIR$/实际应用/读txt更改特定内容.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫框架scrapy/poedb/物品.txt" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫框架scrapy/poedb/物品.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -255,6 +253,9 @@
       <workItem from="1580721722317" duration="294000" />
       <workItem from="1580830429200" duration="363000" />
       <workItem from="1582380314050" duration="975000" />
+      <workItem from="1582392828440" duration="168000" />
+      <workItem from="1582471856600" duration="59000" />
+      <workItem from="1585235557404" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1565454267354</created>
@@ -417,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580646131434</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="为自己数据库备份写了邮件发送程序">
+      <created>1582392905490</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1582392905490</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +455,8 @@
     <MESSAGE value="更新查询传奇" />
     <MESSAGE value="数据分析文件夹" />
     <MESSAGE value="直方图" />
-    <option name="LAST_COMMIT_MESSAGE" value="直方图" />
+    <MESSAGE value="为自己数据库备份写了邮件发送程序" />
+    <option name="LAST_COMMIT_MESSAGE" value="为自己数据库备份写了邮件发送程序" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Masteryi$page41.coverage" NAME="page41 Coverage Results" MODIFIED="1580566726251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
