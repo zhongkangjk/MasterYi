@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="89e94c6e-e63f-4246-953e-a0899628c0bb" name="Default Changelist" comment="为自己数据库备份写了邮件发送程序">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实际应用/邮件发送小程序.py" beforeDir="false" afterPath="$PROJECT_DIR$/实际应用/邮件发送小程序.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/爬虫框架scrapy/poedb/物品.txt" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫框架scrapy/poedb/物品.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,9 +35,9 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/我的个人网站项目/shuaizitubiao" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -259,7 +258,15 @@
       <workItem from="1586257292291" duration="26000" />
       <workItem from="1586257406983" duration="14000" />
       <workItem from="1586261866065" duration="186000" />
-      <workItem from="1586346647533" duration="33000" />
+      <workItem from="1586346647533" duration="122000" />
+      <workItem from="1586519811940" duration="189000" />
+      <workItem from="1586520756421" duration="39000" />
+      <workItem from="1586520819823" duration="713000" />
+      <workItem from="1587291547374" duration="4000" />
+      <workItem from="1587642010275" duration="16000" />
+      <workItem from="1588676259313" duration="21000" />
+      <workItem from="1588949485676" duration="66000" />
+      <workItem from="1589289255792" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1565454267354</created>
@@ -436,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585235654589</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="给邮件发送更新了总结">
+      <created>1586346726935</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1586346726935</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +482,8 @@
     <MESSAGE value="直方图" />
     <MESSAGE value="为自己数据库备份写了邮件发送程序" />
     <MESSAGE value="读txt更改特定内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="读txt更改特定内容" />
+    <MESSAGE value="给邮件发送更新了总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="给邮件发送更新了总结" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Masteryi$page41.coverage" NAME="page41 Coverage Results" MODIFIED="1580566726251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
