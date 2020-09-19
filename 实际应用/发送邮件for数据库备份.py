@@ -28,3 +28,14 @@ try:
     print("发送成功")
 except:
     print("发送失败")
+
+
+# 同文件夹下发送邮件.sh内容
+'''
+#!/bin/bash
+cd /home/sites/173.82.120.157/MasterYi_Django_blog&&python3 发送邮件.py
+
+
+crontab -e
+19 1 * * * sh /home/sites/173.82.120.157/MasterYi_Django_blog/发送邮件.sh
+'''
