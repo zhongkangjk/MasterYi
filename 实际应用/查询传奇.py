@@ -29,17 +29,17 @@ def getHTMLText(url):
         #'http://poedb.tw/tw/unique.php?n=Hands_of_the_High_Templar'
 def 标准联盟(url):
     html = etree.HTML(getHTMLText(url))
-    res = html.xpath("/html/body/div[5]/div/table[2]/tbody//tr//td[1]/text()")
+    res = html.xpath("/html/body/div[3]/div/table[2]/tbody//tr//td[1]/text()")
     价格 = [i for i in res]
-    res1 = html.xpath("/html/body/div[5]/div/table[2]/tbody//tr//td[2]/text()")
+    res1 = html.xpath("/html/body/div[3]/div/table[2]/tbody//tr//td[2]/text()")
     数量= [i for i in res1]
     标准 = [[价格[i],数量[i]] for i in range(len(价格))]
     return 标准
 def 赛季联盟(url):
     html = etree.HTML(getHTMLText(url))
-    res3 = html.xpath("/html/body/div[5]/div/table[3]/tbody//tr//td[1]/text()")
+    res3 = html.xpath("/html/body/div[3]/div/table[3]/tbody//tr//td[1]/text()")
     价格1 = [i for i in res3]
-    res4 = html.xpath("/html/body/div[5]/div/table[3]/tbody//tr//td[2]/text()")
+    res4 = html.xpath("/html/body/div[3]/div/table[3]/tbody//tr//td[2]/text()")
     数量1= [i for i in res4]
     赛季 = [[价格1[i],数量1[i]] for i in range(len(价格1))]
     return 赛季
